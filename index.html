@@ -6,41 +6,41 @@
     <body>
         <form action="mailto:aanyag009@gmail.com" method="get">
             <b>Name</b>
-            <input type="text" id="name">
+            <input type="text" id="studentName" name="studentName">
             <br><br>
             <b>Class</b>
-            <input type="text" id="class">
+            <input type="text" id="class" name="class">
             <br><br>
             <b>Section</b>
-            <input type="text" id="section">
+            <input type="text" id="section" name="section">
             <br><br>
             <b>What would you like to submit for........</b>
-            <input type="checkbox" id="option1">Article
-            <input type="checkbox" id="option2">Poem
-            <input type="checkbox" id="option3">Short Story
-            <input type="checkbox" id="option4">Art related to nature
-            <input type="checkbox" id="option5">Other
+            <input type="checkbox" id="option1" name="option1">Article
+            <input type="checkbox" id="option2" name="option2">Poem
+            <input type="checkbox" id="option3" name="option3">Short Story
+            <input type="checkbox" id="option4" name="option4">Art related to nature
+            <input type="checkbox" id="option5" name="option5">Other
             <br>
             <br>
             <b>If other, mention what you would like to submit</b>
-            <input type="text" id="other">
+            <input type="text" id="other" name="other">
             <br>
             <br>
             <b>Mention the topic of your piece</b>
-            <input type="text" id="topic">
+            <input type="text" id="topic" name="topic">
             <br><br>
             <b>Submit you piece here (if in form of text)</b>
             <br>
-            <textarea id="peice" cols="40" rows="10"></textarea>
+            <textarea id="peice" name="peice"cols="40" rows="10"></textarea>
             <br><br>
             <b>Submit your peice (if in form of an image)</b>
-            <input type="file" id="myFiles">
+            <input type="file" id="myFiles" name="myFiles">
             <br><br>
             <b>Do you want anything to be added in .........</b>
             <br>
-            <textarea name="suggestions" cols="40" rows="10"></textarea>
+            <textarea name="suggestions" id="suggestions" cols="40" rows="10"></textarea>
             <br><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="inputSuggestions" name="inputSuggestions">
         </form>
     </body>
 </html>
